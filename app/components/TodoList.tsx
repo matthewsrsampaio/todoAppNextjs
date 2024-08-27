@@ -9,16 +9,20 @@ interface TodoListProps {
 const TodoList: React.FC<TodoListProps> = ({tasks}) => {
   return (
     <div className="overflow-x-auto mt-4 w-full">
-        <table className="table mx-auto">
+        <table className="table w-full mx-auto border-collapse">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Task</th>
+                    <th className="py-2 px-4 border-b">Task to do</th>
+                    <th className="py-2 px-4 border-b">Actions</th>
                 </tr>
             </thead>
             <tbody>
-               {tasks.map((task) => 
-                (<Task key={task.id} task={task}/>))}
+               {tasks.map((task) => (
+                    <Task 
+                        key={task.id} 
+                        task={task}/>
+                    ))
+                }
             </tbody>
         </table>
     </div>

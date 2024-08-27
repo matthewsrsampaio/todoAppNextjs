@@ -12,7 +12,9 @@ const Modal: React.FC<ModalProps> = ({modalOpen, setModalOpen, children}) => {
             {children}
             <div className="modal-action">
                 <form method="dialog">
-                    <button className="btn" onClick={() => setModalOpen(false)}>Close</button>
+                    <button className="btn" onClick={() => setModalOpen(false)}>
+                        Close
+                    </button>
                 </form>
             </div>
         </div>

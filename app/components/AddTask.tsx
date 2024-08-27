@@ -12,6 +12,7 @@ const AddTask = () => {
     const router = useRouter(); //this needs to be imported from next;
     const [modalOpen, setModalOpen] = useState<boolean>(false);
     const [newTaskValue, setNewTaskValue] = useState<string>('');
+    
     const handleSubmitNewTodo: FormEventHandler<HTMLFormElement> = async (e) => {
         e.preventDefault();
         console.log(newTaskValue);
@@ -26,7 +27,7 @@ const AddTask = () => {
     
     return (
         <div>
-            <button onClick={() => setModalOpen(true)} className="btn btn-primary w-full">
+            <button onClick={() => setModalOpen(true)} className="btn btn-success w-full">
                 ADD NEW TASK <AiOutlinePlus className="ml-2" size={18}/>
             </button>
             <Modal modalOpen={modalOpen} setModalOpen={setModalOpen}>
@@ -38,8 +39,12 @@ const AddTask = () => {
                             onChange={(e) => setNewTaskValue(e.target.value)}
                             type="text" 
                             placeholder="Type here"
-                            className="input input-bordered w-full" />
-                        <button type="submit" className="btn">Submit</button>
+                            className="input input-bordered" />
+                    </div>
+                    <div className="modal-action">
+                        <button className="btn btn-success">
+                            Submit
+                        </button>
                     </div>
                 </form>
             </Modal>

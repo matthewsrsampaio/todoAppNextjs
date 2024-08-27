@@ -1,36 +1,24 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "Buy milk"
+      "id": "61a484e4-a961-402d-bcf0-a91f30c764e4",
+      "text": "Study some NextJs tomorrow NEW"
     },
     {
-      "id": "2",
-      "text": "Go to the gym"
+      "id": "662a1b4d-8dc6-4a69-b566-772b359a3052",
+      "text": "Wash my hair next SHOWER NEW"
     },
     {
-      "id": "3",
-      "text": "Estudy NextJs"
+      "id": "e4b42120-d6d5-430a-9cfe-e5e3b31d71ff",
+      "text": "Go to Tomorrow Land"
     },
     {
-      "id": "4",
-      "text": "Take dogs for a walk"
+      "id": "95dadcb7-099c-4d0d-bd98-26cea6e6b00a",
+      "text": "English class tomorrow"
     },
     {
-      "id": "5",
-      "text": "Call CEO Marcos"
-    },
-    {
-      "id": "6",
-      "text": "Matthews"
-    },
-    {
-      "id": "a5de46dd-d2f0-4dd9-9908-40182fd4b00b",
-      "text": "Say hi to grandma"
-    },
-    {
-      "id": "2f9c4a6c-3a5d-43a2-a68e-3facc40b15d3",
-      "text": "say 'yo dawg' to grandpa"
+      "id": "aa69c64e-5640-4a1e-ac58-a428a5fb6a57",
+      "text": "Take singing classes NEW"
     }
   ]
 }
